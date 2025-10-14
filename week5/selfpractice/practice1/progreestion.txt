@@ -1,0 +1,2 @@
+รู้การใช้ DOM เพื่อเข้าถึงองค์ประกอบของหน้าเว็บผ่าน getElementById 
+และ querySelector รวมถึงการอ่านค่า textContent

@@ -1,0 +1,6 @@
+const title = document.getElementById('title')
+const desc = document.querySelector('.desc')
+console.log(title)
+console.log(desc)
+console.log(title.textContent)
+console.log(desc.textContent)
