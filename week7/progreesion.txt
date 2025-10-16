@@ -1,0 +1,7 @@
+ได้เรียนรู้การใช้ DOM ในการเข้าถึงและจัดการองค์ประกอบของหน้าเว็บ
+เช่น
+ใช้ getElementById() และ querySelector() เพื่อเข้าถึง element
+ใช้ classList.add(), remove(), toggle() เพื่อเปลี่ยนคลาสและสไตล์ของกล่อง
+ใช้ dataset กับ addEventListener() เพื่อเปลี่ยนสีแบบโต้ตอบ
+ใช้ childNodes / children เพื่อดูโครงสร้างภายใน element
+ใช้ createElement() และ appendChild() เพื่อเพิ่มแท็กใหม่ใน DOM

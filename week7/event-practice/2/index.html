@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice 2 - เปลี่ยนสีของกล่อง</title>
+    <style>
+      #box {
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 20px 0;
+        transition: background-color 0.3s;
+      }
+
+      button {
+        margin: 0 5px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Practice 2: เปลี่ยนสีของกล่อง</h1>
+
+    <div id="box">BOX</div>
+
+    <button data-color="red">สีแดง</button>
+    <button data-color="blue">สีน้ำเงิน</button>
+    <button data-color="green">สีเขียว</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
