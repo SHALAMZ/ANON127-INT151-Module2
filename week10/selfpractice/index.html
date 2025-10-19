@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .form-container {
+            display: inline-block;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 10px 5px;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <label>Background Color:
+            <input type="color" id="bgColor">
+        </label>
+        <label>
+            Font Color:
+            <input type="color" id="fontColor">
+        </label>
+        <label>
+            Font Size:
+            <select id="fontSize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </label>
+        <div>
+            <button id="saveBtn">Save</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
